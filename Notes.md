@@ -25,5 +25,17 @@ npm install --save-dev eslint @babel/eslint-parser eslint-plugin-react eslint-pl
 # La última version de ESLint no soporta .eslint.json configuración, por lo que es necesario migrar este (https://eslint.org/docs/latest/use/configure/migration-guide):
 npm install @eslint/js @eslint/eslintrc -D
 npx @eslint/migrate-config .eslintrc.json 
-
 ```
+
+### Debugging
+
+```sh
+npx react-devtools
+```
+
+Refs: 
+
+- https://reactnative.dev/docs/debugging#accessing-the-in-app-developer-menu
+- https://docs.expo.dev/debugging/runtime-issues/
+
+
